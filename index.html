@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Gomitas Ginger Spark - Info</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family:'Poppins',sans-serif;
+      margin:0; padding:0;
+      background:linear-gradient(135deg,#f5f5f5,#e0e0e0);
+      display:flex; justify-content:center; align-items:center;
+      min-height:100vh;
+    }
+    .container {
+      background:#fff; max-width:900px; width:100%; padding:30px;
+      border-radius:20px; box-shadow:0 12px 30px rgba(0,0,0,0.2);
+      text-align:center; animation:fadeIn 1.2s ease;
+    }
+    @keyframes fadeIn { from{opacity:0; transform:translateY(20px)} to{opacity:1; transform:none} }
+    h1 {
+      font-size:34px; font-weight:700; margin-bottom:15px;
+      background:linear-gradient(90deg,#ff6a00,#ffca28,#ff6a00);
+      -webkit-background-clip:text; -webkit-text-fill-color:transparent;
+      text-shadow:2px 2px 8px rgba(0,0,0,0.35);
+    }
+    p { font-size:18px; color:#333; margin-bottom:20px; line-height:1.7; }
+    .image-wrapper {
+      margin:0 auto 30px auto;
+    }
+    .image-wrapper img {
+      width:80%; max-width:720px;
+      border-radius:15px; box-shadow:0 6px 15px rgba(0,0,0,0.25);
+      animation:fadeInImage .9s ease forwards;
+    }
+    @keyframes fadeInImage { from{opacity:0; transform:scale(.95)} to{opacity:1; transform:scale(1)} }
+    .btn {
+      display:inline-block; padding:12px 25px;
+      background:linear-gradient(90deg,#ff6a00,#ffca28,#ff6a00);
+      color:#fff; text-decoration:none; font-weight:700;
+      border-radius:30px; transition:.2s ease;
+    }
+    .btn:hover { transform:scale(1.04); box-shadow:0 8px 20px rgba(255,106,0,0.35); }
+    .highlight {
+      font-size:20px; font-weight:700; color:#1877F2;
+      margin-top:30px; text-shadow:1px 1px 4px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>¡Descubre el sabor mágico!</h1>
+
+    <!-- 🖼️ Imagen en lugar del video -->
+    <div class="image-wrapper">
+      <img src="promo.png" alt="Gomitas Ginger Spark">
+    </div>
+
+    <p>
+      Nuestras gomitas medicinales naturales, elaboradas con hierbabuena, jengibre, miel y limón,
+      ofrecen una combinación refrescante y beneficiosa para tu bienestar. Su sabor único y su textura suave las hacen especiales.
+    </p>
+
+    <p>
+      Cada unidad pesa 8 gramos y viene en una práctica forma cuadrada.  
+      Encuéntranos en la IET Puente de Piedra, sede principal.
+    </p>
+
+    <p class="highlight">¡Ven a disfrutar de una experiencia única que une sabor, salud y bienestar!</p>
+
+    <!-- Botón hacia redes -->
+    <a href="redes.html" class="btn">Ir a Redes Sociales</a>
+  </div>
+</body>
+</html>
